@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Meventer",
+  "short_name": "Meventer",
+  "version": "be.robbeheremans.meventer",
+  "description": "Met deze app is het mogelijk om evenementen te zoeken, bekijken en aan te maken, daarnaast kunnen deze\n            evenementen in local storage opgeslagen worden voor het geval er geen internet verbinding is. U kunt ook\n            mensen bekijken en ze een vriendschapsverzoek sturen. Wanneer de andere gebruiker akkoord gaat\n            en uw verzoek accepteerd zal er een chat beschikbaar zijn tussen de twee gebruikers.\n            De chat is enkel beschikbaar tijdens een internet verbinding. De applicatie is een totaal van 2.64MB groot.",
+  "author": "Robbe Heremans - student@IT-Factory",
+  "icons": [],
+  "start_url": "index.html"
+}

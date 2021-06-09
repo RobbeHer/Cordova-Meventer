@@ -1,0 +1,35 @@
+#over-pagina{
+    padding: 10px 5%;
+    margin-bottom: 10vh;
+}
+
+#log-out {
+    width: fit-content;
+    padding: 5px 13px;
+    background-color: #0088ee;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px #888888;
+}
+
+#log-out:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 0 #888888;
+}
+
+#bekijk-eigen-account {
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+}
+
+#mezelf {
+    margin-top: 50px;
+}
+
+#over-pagina hr{
+    margin: 20px 0;
+}

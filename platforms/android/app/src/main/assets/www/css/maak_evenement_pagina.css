@@ -1,0 +1,62 @@
+#maak-evenement-pagina {
+    padding: 10px 5%;
+    margin-bottom: 10vh;
+}
+
+#maak-evenement-pagina table {
+    width: 100%;
+}
+
+#maak-evenement-pagina input,
+#maak-evenement-pagina select {
+    height: auto;
+    width: 100%;
+    border: 0 solid black;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    margin-bottom: 0;
+    box-shadow: 0 0 0 #888888;
+    padding: 10px 0 0;
+    background-color: white;
+    color: black;
+}
+
+#maak-evenement-pagina .nieuw-deel {
+    margin-top: 20px;
+}
+
+#mep-details {
+    min-width: 100%;
+    min-height: 250px;
+    word-wrap: break-word;
+    overflow: scroll;
+}
+
+#maak-evenement-knop {
+    margin-top: 25px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.ga-naar-zoek-pagina {
+    margin-bottom: 10px;
+}
+
+.ga-naar-zoek-pagina,
+#maak-evenement-knop {
+    width: fit-content;
+    padding: 5px 13px;
+    background-color: #0088ee;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px #888888;
+}
+
+.ga-naar-zoek-pagina:hover,
+#maak-evenement-knop:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 0 #888888;
+}
+

@@ -1,0 +1,28 @@
+#vrienden-info-pagina {
+    padding: 10px 5%;
+    margin-bottom: 10vh;
+}
+
+#vip-evenementen {
+    margin: 0 -5%;
+}
+
+#ga-naar-vrienden-pagina {
+    margin-bottom: 10px;
+}
+
+#ga-naar-vrienden-pagina {
+    width: fit-content;
+    padding: 5px 13px;
+    background-color: #0088ee;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px #888888;
+}
+
+#ga-naar-vrienden-pagina {
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 0 #888888;
+}

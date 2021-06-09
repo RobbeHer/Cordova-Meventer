@@ -1,0 +1,152 @@
+#vrienden-pagina {
+    margin-bottom: 10vh;
+}
+
+#vp-top {
+    padding: 20px 5vw;
+    background-color: #0088ee;
+    color: black;
+}
+
+#vp-zoek-div {
+    height: 30px;
+    width: 90vw;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px #888888;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+}
+
+#vp-zoekbalk {
+    height: 100%;
+    width: 55%;
+    border: 0 solid black;
+    border-radius: 0;
+    box-shadow: 0 0 0 #888888;
+}
+
+#vp-zoek-knop,
+#vp-download-vrienden {
+    width: 15%;
+    height: 26px;
+}
+
+#vp-download-vrienden {
+    float: left;
+    margin: 2px 0 13px;
+}
+
+#vp-zoek-knop {
+    float: right;
+    margin: 2px 13px 0 0;
+}
+
+#vp-tab-vrienden,
+#vp-tab-meldingen {
+    font-size: 20px;
+    border-bottom: 1px solid #0088ee;
+}
+
+#vp-vrienden {
+    margin: 10px 0 20vh;
+}
+
+.open-chat,
+.vp-zoek-result,
+.melding {
+    margin: 5px 5%;
+    padding: 15px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 1px 2px 2px #888888;
+}
+
+.open-chat:hover {
+    background-color: lightgrey;
+    color: black;
+    box-shadow: 0 0 0 #888888;
+}
+
+#vp-sluit-resultaten {
+    margin: 10px 5%;
+}
+
+.vp-zoek-result .volg-nieuwe-vriend {
+    float: right;
+}
+
+#vp-sluit-resultaten {
+    width: fit-content;
+    padding: 5px 13px;
+    background-color: #0088ee;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px #888888;
+}
+
+#vp-sluit-resultaten:hover,
+.gevolgd:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 0 #888888;
+}
+
+.ongevolgd:hover{
+    background-color: white;
+    color: blue;
+    box-shadow: 0 0 0 #888888;
+}
+
+.ongevolgd,
+.gevolgd {
+    width: fit-content;
+    padding: 5px 13px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px #888888;
+}
+
+.gevolgd {
+    background-color: #0088ee;
+    color: white;
+}
+
+.ongevolgd {
+    background-color: white;
+    color: #0088ee;
+    font-weight: bolder;
+}
+
+.melding-knop {
+    width: 30%;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 1px 2px 2px #888888;
+}
+
+.melding-knop:hover {
+    box-shadow: 0 0 0 #888888;
+}
+
+.accepteer-vv-verzoek {
+    background-color: green;
+    color: white;
+}
+
+.accepteer-vv-verzoek:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.weiger-vv-verzoek {
+    background-color: #990000;
+    color: white;
+}
+
+.weiger-vv-verzoek:hover {
+    background-color: darkred;
+    color: white;
+}

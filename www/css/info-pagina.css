@@ -1,0 +1,69 @@
+#info-pagina #ip-info-box {
+    padding: 10px 5%;
+    margin-bottom: 10vh;
+}
+
+#ip-foto {
+    width: 100vw;
+    height: 220px;
+    background: url(../img/default_evenement.png) no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#info-pagina .ga-naar-zoek-pagina {
+    position: fixed;
+    top: 10px;
+    left: 5%;
+}
+
+#ip-opslaan {
+    width: 60%;
+    margin: 10px 20%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: 1px 2px 2px #888888;
+    text-align: center;
+}
+
+#info-pagina hr {
+    margin: 20px 0;
+}
+
+#info-pagina .td-links {
+    padding: 0 10px;
+}
+
+#ip-verberg-informatie,
+#ip-toon-meer-informatie {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: #0088ee;
+    text-decoration: underline;
+}
+
+#ip-verberg-informatie:hover,
+#ip-toon-meer-informatie:hover {
+    background-color: white;
+    color: blue;
+}
+
+#ip-beschrijving {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+#ip-details {
+    margin-top: 10px;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+#ip-datum-start,
+#ip-datum-einde {
+    display: inline;
+}

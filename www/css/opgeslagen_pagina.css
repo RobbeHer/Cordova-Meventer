@@ -1,0 +1,41 @@
+#opgeslagen-pagina{
+    margin-bottom: 10vh;
+}
+
+.opgeslagen {
+    margin: 10px 5%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 1px 2px 2px #888888;
+}
+
+.opgeslagen .op-toggle-div-meer,
+.opgeslagen .op-toggle-details,
+.opgeslagen .op-sluiten {
+    background-color: rgba(0,0,0,0);
+    color: blue;
+    text-decoration: underline;
+}
+
+.opgeslagen .op-verwijderen {
+    float: right;
+}
+
+.opgeslagen .spacing {
+    width: 30px;
+    background-color: aqua;
+}
+
+.op-verwijderen {
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px #888888;
+    background-color: red;
+    color: black;
+}
+
+.op-toon-alle-info {
+    width: fit-content;
+}

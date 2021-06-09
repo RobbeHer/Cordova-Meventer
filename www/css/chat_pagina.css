@@ -1,0 +1,130 @@
+.chat-links,
+.chat-links .bubbel {
+    max-width: 70%;
+    margin: auto auto auto 0;
+}
+
+.chat-rechts,
+.chat-rechts .bubbel {
+    max-width: 70%;
+    margin: auto 0 auto auto;
+}
+
+.chat-rechts .cp-timestamp {
+    text-align: right;
+}
+
+.bubbel {
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #4400ff;
+    color: white;
+}
+
+.bubbel p {
+    word-wrap: break-word;
+}
+
+#cp-inputs {
+    position: fixed;
+    bottom: 0;
+}
+
+#cp-bericht {
+    width: 100%;
+}
+
+#cp-stuur-bericht {
+    width: 150px;
+}
+
+.cp-timestamp {
+    font-size: 9px;
+}
+
+#chat-pagina {
+    margin-bottom: 10vh;
+}
+
+#cp-chat {
+    padding: 0 5%;
+}
+
+#cp-chat-top {
+    padding: 20px 0;
+    background-color: #0088ee;
+    color: white;
+    text-align: center;
+}
+
+#cp-ga-naar-vrienden-pagina {
+    position: fixed;
+    top: 20px;
+    left: 5%;
+    width: fit-content;
+    padding: 5px 13px;
+    background-color: #0088ee;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px #888888;
+}
+
+#ga-naar-vrienden-pagina:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 0 #888888;
+}
+
+#cp-naam {
+    margin: auto;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#cp-toon-oudere-berichten {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    background-color: white;
+    color: #0088ee;
+    text-decoration: underline;
+    overflow: hidden;
+}
+
+#cp-inputs {
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    padding: 10px 5%;
+    border-top: 1px solid black;
+    width: 90%;
+    height: 30px;
+    display: flex;
+}
+
+#cp-bericht {
+    height: 30px;
+    width: available;
+    margin-right: 5vw;
+    border-radius: 15px;
+}
+
+#cp-stuur-bericht {
+    width: 60px;
+    text-align: center;
+    padding: 5px 13px;
+    background-color: #0088ee;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px #888888;
+}
+
+#cp-stuur-bericht:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 0 #888888;
+}

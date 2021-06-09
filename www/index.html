@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/algemeen.css">
+        <link rel="stylesheet" type="text/css" href="css/chat_pagina.css">
+        <link rel="stylesheet" type="text/css" href="css/info-pagina.css">
+        <link rel="stylesheet" type="text/css" href="css/login_pagina.css">
+        <link rel="stylesheet" type="text/css" href="css/maak_evenement_pagina.css">
+        <link rel="stylesheet" type="text/css" href="css/navigatie.css">
+        <link rel="stylesheet" type="text/css" href="css/opgeslagen_pagina.css">
+        <link rel="stylesheet" type="text/css" href="css/over-pagina.css">
+        <link rel="stylesheet" type="text/css" href="css/vrienden-pagina.css">
+        <link rel="stylesheet" type="text/css" href="css/vrienden_info_pagina.css">
+        <link rel="stylesheet" type="text/css" href="css/zoek_pagina.css">
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div id="login-pagina" class="spa">
+            <div id="login-form">
+                <label for="login-email" class="vet">Email:</label><br>
+                <input id="login-email" type="text" placeholder="r0743799@student.thomasmore.be"><br>
+                <label for="login-wachtwoord" class="vet">Wachtwoord:</label><br>
+                <input id="login-wachtwoord" type="password" placeholder="*****"><br>
+                <p id="login-knop" class="vet">Login</p>
+                <br>
+                <p id="ga-naar-sign-up-pagina">Nog geen account?</p>
+            </div>
+        </div>
+        <div id="sign-up-pagina" class="spa">
+            <div id="sign-up-form">
+                <label for="sign-up-naam" class="vet">Naam:</label><br>
+                <input id="sign-up-naam" type="text" placeholder="Robbe Heremans"><br>
+                <label for="sign-up-land" class="vet">Land:</label><br>
+                <select id="sign-up-land">
+                    <option value="--">--</option>
+                    <option value="België">België</option>
+                    <option value="Nederland">Nederland</option>
+                </select><br>
+                <label for="sign-up-gemeente" class="vet">Gemeente & postcode:</label><br>
+                <input id="sign-up-gemeente" type="text" placeholder="Westerlo 2260"><br>
+                <label for="sign-up-email" class="vet">Email:</label><br>
+                <input id="sign-up-email" type="text" placeholder="r0743799@student.thomasmore.be"><br>
+                <label for="sign-up-wachtwoord-1" class="vet">Wachtwoord:</label><br>
+                <input id="sign-up-wachtwoord-1" type="password" placeholder="*****"><br>
+                <label for="sign-up-wachtwoord-2" class="vet">Herhaal wachtwoord:</label><br>
+                <input id="sign-up-wachtwoord-2" type="password" placeholder="*****"><br>
+                <p id="sign-up-knop" class="vet">Sign up</p>
+                <br>
+                <p id="ga-naar-login-pagina">Ik heb al een account</p>
+            </div>
+        </div>
+
+
+        <!--<div id="home-pagina" class="spa"></div>-->
+
+
+        <div id="zoek-pagina" class="spa">
+            <div id="zp-top">
+                <div id="zp-zoek-div">
+                    <input id="zp-zoekbalk" type="text" placeholder="Zoeken">
+                    <img id="zp-knop" src="img/search-icon.svg" alt="" height="20px" width="auto">
+                </div>
+            </div>
+            <div id="zp-resultaten"></div>
+            <div id="ga-naar-maak-evenement-pagina" class="vet"><p>+</p></div>
+        </div>
+
+
+        <div id="maak-evenement-pagina" class="spa">
+            <p class="ga-naar-zoek-pagina">Ga terug</p>
+            <h2>Vul de gegevens in.</h2>
+            <table>
+                <tr>
+                    <td><label for="mep-naam">Naam:</label></td>
+                    <td><input id="mep-naam" type="text" placeholder="Evening talk: Cordova"></td>
+                </tr>
+                <tr><td><h3 class="nieuw-deel">Locatie</h3></td></tr>
+                <tr>
+                    <td>
+                        <label for="mep-straat">Straat & nr.:</label></td>
+                    <td><input id="mep-straat" type="text" placeholder="Kleinhoefstraat 4"></td>
+                </tr>
+                <tr>
+                    <td><label for="mep-gemeente">Gemeente &<br>postcode:</label></td>
+                    <td><input id="mep-gemeente" type="text" placeholder="Geel 2440"></td>
+                </tr>
+                <tr>
+                    <td><label for="mep-land">Land:</label></td>
+                    <td><select id="mep-land">
+                        <option value="België">België</option>
+                        <option value="Nederland">Nederland</option>
+                    </select></td>
+                </tr>
+                <tr><td><h3 class="nieuw-deel">Tijdstippen</h3></td></tr>
+                <tr>
+                    <td>
+                        <label for="mep-start-datum">Start datum </label></td>
+                    <td><input id="mep-start-datum" type="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="mep-start-uur">Start uur </label></td>
+                    <td><input id="mep-start-uur" type="time"></td>
+                </tr>
+                <tr>
+                    <td><label for="mep-eind-datum">Eind datum </label></td>
+                    <td><input id="mep-eind-datum" type="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="mep-eind-uur">Eind uur </label></td>
+                    <td><input id="mep-eind-uur" type="time"></td>
+                </tr>
+                <tr><td><h3 class="nieuw-deel">Inkom</h3></td></tr>
+                <tr>
+                    <td>
+                        <label for="mep-prijs">Prijs (€):</label></td>
+                    <td><input id="mep-prijs" type="number" placeholder="0.00"></td>
+                </tr>
+            </table>
+            <h3 class="nieuw-deel">Details</h3>
+            <textarea id="mep-details" placeholder="Schrijf hier aanvullende informatie over het evenement ..."></textarea><br>
+            <p id="maak-evenement-knop">Maak evenement</p>
+        </div>
+
+
+        <div id="info-pagina" class="spa">
+            <p class="ga-naar-zoek-pagina">Ga terug</p>
+            <div id="ip-foto"></div>
+            <div id="ip-info-box">
+                <h2 id="ip-naam"></h2>
+                <p id="ip-organisator"></p>
+                <p id="ip-prijs"></p>
+                <p id="ip-opslaan">+ opslaan</p>
+                <hr>
+                <table>
+                    <tr>
+                        <td class="td-links"><img src="img/clock-icon.svg" alt="Datum: " width="20px" height="20px"></td>
+                        <td>
+                            <p class="vet inline">Start: </p><p id="ip-datum-start"></p><br>
+                            <p class="vet inline">Einde: </p><p id="ip-datum-einde"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td-links"><img src="img/compass-icon.svg" alt="Locatie: " width="20px" height="20px"></td>
+                        <td><p id="ip-locatie"></p></td>
+                    </tr>
+                </table>
+                <hr>
+                <div id="ip-beschrijving">
+                    <h3>Details: </h3>
+                    <p id="ip-details"></p>
+                    <a id="ip-verberg-informatie" href="#ip-beschrijving">SAMENVOUWEN</a>
+                </div>
+                <a id="ip-toon-meer-informatie" href="#ip-beschrijving">MEER INFORMATIE</a>
+            </div>
+        </div>
+
+
+        <div id="vrienden-pagina" class="spa">
+            <div id="vp-top">
+
+                <div id="vp-zoek-div">
+                    <img id="vp-download-vrienden" src="img/reload-icon.svg" alt="Herlaad" height="20px" width="20px">
+                    <input id="vp-zoekbalk" type="text" placeholder="Zoeken">
+                    <img id="vp-zoek-knop" src="img/search-icon.svg" alt="" height="20px" width="auto">
+                </div>
+            </div>
+            <div id="vp-div-resultaten">
+                <p id="vp-sluit-resultaten">Sluiten</p>
+                <div id="vp-resultaten"></div>
+            </div>
+            <div id="vp-div-vrienden-meldingen">
+                <div class="nav-knoppen">
+                    <p id="vp-tab-vrienden" class="nav-vrienden-pagina-knop open-tab" data-show="vp-vrienden">Vrienden</p>
+                    <p id="vp-tab-meldingen" class="nav-vrienden-pagina-knop" data-show="vp-meldingen">Meldingen</p>
+                </div>
+                <div class="vp-spa" id="vp-vrienden"></div>
+                <div class="vp-spa" id="vp-meldingen"></div>
+            </div>
+        </div>
+
+
+        <div id="vrienden-info-pagina" class="spa">
+            <p id="ga-naar-vrienden-pagina">Ga terug</p>
+            <h2 id="vip-naam"></h2>
+            <div id="vip-evenementen"></div>
+        </div>
+
+
+        <div id="chat-pagina" class="spa">
+            <div id="cp-chat-top">
+                <p id="cp-ga-naar-vrienden-pagina">Ga terug</p>
+                <p id="cp-naam"></p>
+            </div>
+            <p id="cp-toon-oudere-berichten">Toon vorige berichten</p>
+            <div id="cp-chat"></div>
+            <div id="cp-inputs">
+                <input id="cp-bericht" type="text" placeholder="Type hier...">
+                <p id="cp-stuur-bericht">Verzend</p>
+            </div>
+        </div>
+
+
+        <div id="opgeslagen-pagina" class="spa"></div>
+
+
+        <div id="over-pagina" class="spa">
+            <p id="log-out">Log out</p>
+            <figure id="bekijk-eigen-account">
+                <img src="img/account-icon.svg" alt="ACCOUNT" width="20px" height="20px">
+                <figcaption>Bekijk account</figcaption>
+            </figure>
+            <div id="mezelf">
+                <img src="img/r0743799_Robbe_Heremans.jpg" alt="Foto Creator" width="250px" height="auto">
+                <h2>Robbe Heremans <br>r0743799 <br>2 APP/BI - A</h2><br>
+                <a class="contact-knop" href="tel:0470339085">Tel: 0470339085</a>
+                <br><br>
+                <a class="contact-knop" href="sms:0470339085">SMS: 0470339085</a>
+                <br><br>
+                <a class="contact-knop" href="mailto:r0743799@student.thomasmore.be">E-mail: r0743799@student.thomasmore.be</a>
+                <br>
+            </div>
+            <hr>
+            <div id="over-de-app">
+                <h3>Over deze APP:</h3>
+                <p>Met deze app is het mogelijk om evenementen te zoeken, bekijken en aan te maken, daarnaast kunnen deze
+                    evenementen in local storage opgeslagen worden voor het geval er geen internet verbinding is.
+                </p>
+                <br>
+                <p>U kunt ook mensen bekijken en ze een vriendschapsverzoek sturen. Wanneer de andere gebruiker akkoord gaat
+                    en uw verzoek accepteerd zal er een chat beschikbaar zijn tussen de twee gebruikers.
+                    De chat is enkel beschikbaar tijdens een internet verbinding.
+                </p>
+                <br>
+                <p>De applicatie is een totaal van 2.64MB groot.</p>
+            </div>
+            </div>
+
+
+        <div id="navigatie-balk">
+            <div class="nav-knoppen">
+                <div class="navigatie-knop" data-show="zoek-pagina"><img src="img/search-icon.svg" alt="" height="20px" width="auto"><p>Zoek</p></div>
+                <div class="navigatie-knop" data-show="vrienden-pagina"><img src="img/friends-icon.svg" alt="" height="20px" width="auto"><p>Vrienden</p></div>
+                <div class="navigatie-knop" data-show="opgeslagen-pagina"><img src="img/list-icon.svg" alt="" height="20px" width="auto"><p>Opgeslagen</p></div>
+                <div class="navigatie-knop" data-show="over-pagina"><img src="img/info-icon.svg" alt="" height="20px" width="auto"><p>Over</p></div>
+            </div>
+            <div id="netwerk-fout">
+                <p>Geen netwerk verbinding</p>
+            </div>
+        </div>
+
+
+        <!-- netwerkfout-->
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="js/chat_pagina.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/info_pagina.js"></script>
+        <script src="js/login_pagina.js"></script>
+        <script src="js/maak_evenement_pagina.js"></script>
+        <script src="js/melding.js"></script>
+        <script src="js/navigatiebalk.js"></script>
+        <script src="js/netwerk.js"></script>
+        <script src="js/opgeslagen_pagina.js"></script>
+        <script src="js/over_pagina.js"></script>
+        <script src="js/sign_up_pagina.js"></script>
+        <script src="js/tijd.js"></script>
+        <script src="js/vrienden_info_pagina.js"></script>
+        <script src="js/vrienden_pagina.js"></script>
+        <script src="js/zoek_pagina.js"></script>
+    </body>
+</html>

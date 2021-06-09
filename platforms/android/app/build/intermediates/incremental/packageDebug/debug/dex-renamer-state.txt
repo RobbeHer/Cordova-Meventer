@@ -1,0 +1,4 @@
+#Wed Jun 09 17:19:06 CEST 2021
+base.0=D\:\\Thomas More IT Factory\\2ITF\\cordova\\LesCordova\\meventer\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

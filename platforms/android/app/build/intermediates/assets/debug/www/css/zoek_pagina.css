@@ -1,0 +1,74 @@
+#zp-top {
+    padding: 20px 5vw;
+    background-color: #0088ee;
+    color: black;
+}
+
+#zp-zoek-div {
+    height: 30px;
+    width: 90vw;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px #888888;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+}
+
+#zp-zoekbalk {
+    height: 100%;
+    width: 70%;
+    border: 0 solid black;
+    border-radius: 0;
+    box-shadow: 0 0 0 #888888;
+}
+
+#zp-knop {
+    float: right;
+    margin: 2px 13px 0 0;
+    width: 15%;
+    height: 26px;
+}
+
+#zp-resultaten {
+    margin-bottom: 20vh;
+}
+
+#ga-naar-maak-evenement-pagina {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 12vh;
+    right: 15vw;
+    transform: translate(50%, 50%);
+    background-color: #0088ee;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px #888888;
+}
+
+#ga-naar-maak-evenement-pagina:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 0 #888888;
+}
+
+#ga-naar-maak-evenement-pagina p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 30px;
+}
+
+.evenement {
+    margin: 10px 5%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 1px 2px 2px #888888;
+}
+
+.evenement hr {
+    margin: 5px;
+}

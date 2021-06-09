@@ -1,0 +1,149 @@
+-- Merging decision tree log ---
+provider#org.apache.cordova.camera.FileProvider
+INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:12:9-14:20
+	android:grantUriPermissions
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:12:92-126
+	android:authorities
+		INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:12:19-66
+	android:exported
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:12:67-91
+	android:name
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:12:127-180
+manifest
+ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\64e811453c0317bfe013fb2e987a2bfb\AndroidManifest.xml:17:1-22:12
+MERGED from [:CordovaLib] D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\c1a56e08cf879ea847ceff0fc8d5015b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\7386e6399ecb52df673ed9ec879f5c56\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\9869788fc33e841852bdcdc10b78abc9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\929798406e20d48cde50752e90d85186\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e8adcc5661f6533533bee2a13705f41f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\dea29260402144a38b98935bab5d6978\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5eaa9e13fe39030dab231f87742f5e12\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\8409ea7d399e3bbb2fb883009c98d9f1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\67fc1da051463a43fc64284d612789a9\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
+	package
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:2:102-137
+		INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:2:74-101
+		INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:2:138-196
+	android:versionCode
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
+		INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:5:5-15:19
+	android:supportsRtl
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
+activity#be.robbeheremans.meventer.MainActivity
+ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
+	android:screenOrientation
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:6:194-230
+	android:label
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:6:294-336
+	android:configChanges
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:6:231-293
+	android:name
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+uses-sdk
+ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:16:5-74
+INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:16:5-74
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\64e811453c0317bfe013fb2e987a2bfb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\64e811453c0317bfe013fb2e987a2bfb\AndroidManifest.xml:20:5-44
+MERGED from [:CordovaLib] D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\c1a56e08cf879ea847ceff0fc8d5015b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\c1a56e08cf879ea847ceff0fc8d5015b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\7386e6399ecb52df673ed9ec879f5c56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\7386e6399ecb52df673ed9ec879f5c56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\9869788fc33e841852bdcdc10b78abc9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\9869788fc33e841852bdcdc10b78abc9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\929798406e20d48cde50752e90d85186\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\929798406e20d48cde50752e90d85186\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e8adcc5661f6533533bee2a13705f41f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e8adcc5661f6533533bee2a13705f41f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\dea29260402144a38b98935bab5d6978\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\dea29260402144a38b98935bab5d6978\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5eaa9e13fe39030dab231f87742f5e12\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5eaa9e13fe39030dab231f87742f5e12\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\8409ea7d399e3bbb2fb883009c98d9f1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\8409ea7d399e3bbb2fb883009c98d9f1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\67fc1da051463a43fc64284d612789a9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Robbe\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\67fc1da051463a43fc64284d612789a9\AndroidManifest.xml:20:5-44
+INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:16:5-74
+	android:targetSdkVersion
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:16:42-71
+	android:minSdkVersion
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:16:15-41
+		INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:18:22-78
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:13:13-123
+	android:resource
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:13:75-120
+	android:name
+		ADDED from D:\Thomas More IT Factory\2ITF\cordova\LesCordova\meventer\platforms\android\app\src\main\AndroidManifest.xml:13:24-74
